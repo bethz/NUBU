@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+:root {
+  --cp-bg: #f7f4ef;
+  --cp-bg-elevated: #fcfbf8;
+  --cp-surface: #ffffff;
+  --cp-surface-soft: #f5f5f5;
+  --cp-border: #dedede;
+  --cp-border-strong: #919191;
+  --cp-text: #242424;
+  --cp-text-muted: #5c5c5c;
+  --cp-text-soft: #6f6f6f;
+  --cp-accent: #5B9BD5;
+  --cp-accent-hover: #4A8BC2;
+  --cp-accent-soft: rgba(91, 155, 213, 0.08);
+  --cp-accent-fg: #ffffff;
+  --cp-success: #16a34a;
+  --cp-danger: #dc2626;
+  --cp-warning: #f59e0b;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --cp-bg: #1a1a2e;
+    --cp-bg-elevated: #16213e;
+    --cp-surface: #1e293b;
+    --cp-surface-soft: #253347;
+    --cp-border: #334155;
+    --cp-border-strong: #475569;
+    --cp-text: #e2e8f0;
+    --cp-text-muted: #94a3b8;
+    --cp-text-soft: #64748b;
+    --cp-accent: #7AB3E0;
+    --cp-accent-hover: #5B9BD5;
+    --cp-accent-soft: rgba(122, 179, 224, 0.12);
+    --cp-accent-fg: #1a1a1a;
+    --cp-success: #4ade80;
+    --cp-danger: #f87171;
+    --cp-warning: #fbbf24;
+  }
+}
+
+body {
+  font-family: "Segoe UI", Aptos, Calibri, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--cp-bg);
+  color: var(--cp-text);
+  margin: 0;
+}
