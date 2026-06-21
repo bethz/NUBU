@@ -19,7 +19,7 @@ function App() {
         <div className="max-w-6xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-2">
             <span className="text-xl font-bold" style={{ color: 'var(--cp-accent)' }}>NUBU</span>
-            <span className="text-xs" style={{ color: 'var(--cp-text-muted)' }}>NUtrition Builds a Better yoU!</span>
+            <span className="text-xs" style={{ color: 'var(--cp-text-muted)' }}>NUtrition builds a Better yoU!</span>
           </div>
           <div className="flex gap-1">
             <NavLink to="/" className={linkClass}>

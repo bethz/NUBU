@@ -62,7 +62,7 @@ export function Settings() {
       <div className="rounded-2xl p-6 mt-6" style={{ background: 'var(--cp-surface)', border: '1px solid var(--cp-border)' }}>
         <h2 className="text-lg font-semibold mb-4">About NUBU</h2>
         <p className="text-sm mb-2" style={{ color: 'var(--cp-text-muted)' }}>
-          <strong>NUBU</strong> - NUtrition Builds a Better yoU!
+          <strong>NUBU</strong> - NUtrition builds a Better yoU!
         </p>
         <p className="text-sm" style={{ color: 'var(--cp-text-muted)' }}>
           A personal nutrition tracker that helps you understand what you're eating, identify gaps, and build better habits.
