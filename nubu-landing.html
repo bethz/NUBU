@@ -36,6 +36,11 @@ canvas {
   width: 100%;
   margin-top: 12px;
 }
+.feature:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+  max-width: 50%;
+  justify-self: center;
+}
 .feature {
   background: #ffffff;
   border: 1px solid #dedede;
@@ -148,14 +153,12 @@ canvas {
       <h3>Saved Meals</h3>
       <p>Store favorites so you never retype.</p>
     </div>
+    <div class="feature">
+      <div class="feature-icon">📈</div>
+      <h3>Visual Dashboard</h3>
+      <p>Color-coded bars show where you stand daily.</p>
+    </div>
   </div>
-  <ul>
-    <li><strong>Natural language food logging</strong> - Just say what you ate ("2 eggs, toast with jelly, black tea")</li>
-    <li><strong>Full nutrient analysis</strong> - Tracks 26+ nutrients including vitamins, minerals, and macros</li>
-    <li><strong>Saved meals</strong> - Store common meals so you don't retype them every day</li>
-    <li><strong>Gap detection</strong> - Highlights nutrients you're low on and suggests foods to fix it</li>
-    <li><strong>Visual dashboard</strong> - Color-coded progress bars show where you stand daily</li>
-  </ul>
 
   <h2>Tracked Nutrients</h2>
   <div class="nutrient-grid">
